@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Anotador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📒 Mi Anotador de Proyectos</h1>
+  </header>
+
+  <main>
+    <!-- Formulario para crear nueva lista -->
+    <form id="listaForm">
+      <input type="text" id="nombreLista" placeholder="Nombre de la lista" required>
+      <textarea id="descripcionLista" placeholder="Descripción del proyecto"></textarea>
+      <button type="submit">Crear lista</button>
+    </form>
+
+    <!-- Aquí se mostrarán las listas -->
+    <section id="listasContainer">
+      <h2>Mis listas</h2>
+      <!-- Las listas se insertarán dinámicamente con JS -->
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
